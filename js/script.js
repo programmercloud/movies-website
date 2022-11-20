@@ -1,13 +1,3 @@
-// $(".change-mode").click(function () {
-//   $("body").toggleClass("dark");
-// });
-
-// $(".category").click(function () {
-//   $(".products").css("display", "none");
-//   var categoryIndex = $(".category").index(this);
-//   $(".shop .products").eq(categoryIndex).css("display", "block");
-// });
-
 $(".mobile-btn").click(function () {
   $(".mobile-overlay, .sidebar, .mobile-btn").toggleClass("mobile-active");
 });
